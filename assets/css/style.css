@@ -151,6 +151,7 @@ h3, h2 {
 
 .work img {
   width: 100%;
+  min-height: 250px;
   border: 0 none;
   opacity: 0.8;
 }
@@ -329,10 +330,14 @@ input[type=submit] {
     bottom: 25px;
     padding: 10px;
     margin-bottom: 0;
-    line-height: 25px;
+    line-height: 20px;
     border-bottom: 0;
   }
-
+  #git{
+    width: 24px;
+    min-height: 0;
+    line-height: 25px;
+  }
   #main-container {
     width: 90% !important;
     padding-top: 140px;
